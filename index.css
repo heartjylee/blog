@@ -63,12 +63,13 @@ button {
 }
 
 .main-right {
-    flex: 1 1 auto;
+    display: flex;
+    flex-shrink: 1;
     margin-left: auto;
 }
 
 .line {
-    background-color:cadetblue;
+    background-color:rgb(217, 239, 239);
     color: white;
     display: flex;
     flex-wrap: wrap;
