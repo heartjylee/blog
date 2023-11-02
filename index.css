@@ -11,8 +11,7 @@ body {
 
 .leftside {
     display: flex;
-    font-size: 25pt;
-    font-weight: 800;
+    font-size: 35pt;
     justify-content: center;
     align-items: center;
     margin-right: auto;
@@ -63,9 +62,21 @@ button {
     font-size: 23px;
 }
 
-
-
 .main-right {
     flex: 1 1 auto;
     margin-left: auto;
+}
+
+.line {
+    background-color:cadetblue;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.image {
+    border: 4px solid white;
+    border-radius: 8px;
 }
