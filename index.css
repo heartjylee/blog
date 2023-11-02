@@ -44,7 +44,7 @@ button {
 
 .main-text {
     display: flex;
-    margin: 50px;
+    margin: 100px;
     color: darkslategray;
 }
 
@@ -72,14 +72,37 @@ button {
     background-color:rgb(217, 239, 239);
     color: white;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    padding: 50px 100px;
+    padding: 50px 100px 80px 100px;
+    margin-bottom: 50px;;
     justify-content: space-between;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    color:darkslategray;
+}
+
 .image {
-    border: 6px solid white;
-    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.post {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px darkslategray solid;
+    border-radius: 5px;
+}
+
+img {
+    display: flex;
 }
 
 .end {
@@ -102,5 +125,4 @@ button {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-
 }
