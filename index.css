@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading {
+    background-color:cadetblue;
+    color: white;
+    display: flex;
+    padding: 25px 50px;
+}
+
+.leftside {
+    font-size: 25pt;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
